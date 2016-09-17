@@ -32,12 +32,25 @@
 							</li>
 							{% endif %}
 
-							<li class="submenu">
-								<a href="https://naidickens.blogspot.com" target="_blank">Nai @ Dickens</a>
+							{% if page.active == "dproject" %}
+							<li class="current submenu">
+								<a href="{{ site.baseurl }}/dickensproject/">NAI-Dickens Project</a>
 								<ul>
+									<li><a href="https://naidickens.blogspot.com" target="_blank">NAI @ Dickens</a></li>
 									<li><a href="http://middlelab.blogspot.com/" target="_blank">MiddleLab</a></li>
+									<li><a href="http://dickens.ucsc.edu/" target="_blank">The Dickens Project</a></li>
 								</ul>
 							</li>
+							{% else %}
+							<li class="submenu">
+								<a href="{{ site.baseurl }}/dickensproject/">NAI-Dickens Project</a>
+								<ul>
+									<li><a href="https://naidickens.blogspot.com" target="_blank">NAI @ Dickens</a></li>
+									<li><a href="http://middlelab.blogspot.com/" target="_blank">MiddleLab</a></li>
+									<li><a href="http://dickens.ucsc.edu/" target="_blank">The Dickens Project</a></li>
+								</ul>
+							</li>
+							{% endif %}
 
 							{% if page.active == "productions" %}
 							<li class="current submenu">
