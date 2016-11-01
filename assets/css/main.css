@@ -1811,6 +1811,20 @@
 				width: 100%;
 			}
 
+		.image.featured-small {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image.featured-small img {
+				display: block;
+				width: 80%;
+			}
+			
+			.image.featured-small:before {
+				content:none;
+			}
+
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1.25em 0;
