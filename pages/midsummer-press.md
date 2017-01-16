@@ -11,7 +11,7 @@ Los Angeles, June 25, 2016
 Photos by Karla Paredes
 <br><br>
 
-<center><a href="#" class="image featured-small"><img src "http://static.tumblr.com/32ixqz5/oIIojuelp/donkeey.jpg" /></a></center>
+<center><a href="#" class="image featured-small"><img src="http://static.tumblr.com/32ixqz5/oIIojuelp/donkeey.jpg" /></a></center>
 
 <center><a href="#" class="image featured-small"><img src="http://static.tumblr.com/32ixqz5/LxYojuemr/grouopp.jpg" /></a></center>
 ​
