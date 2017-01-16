@@ -15,5 +15,5 @@ active: dproject
 <a href="https://naidickens.blogspot.com/" target="_blank">NAI @ Dickens</a>
 <p>Visit us here to follow the adventures through literature and forests of the Dickens Universe scholarship winners.</p>
 
-<a href="https://naidickens.blogspot.com/" target="_blank">MiddleLab</a>
+<a href="http://middlelab.uscnaitheater.me/" target="_blank">MiddleLab</a>
 <p>The online laboratory for NAI Seniors's study of George Eliot's Middlemarch.</p>

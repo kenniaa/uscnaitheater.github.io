@@ -17,6 +17,7 @@ active: subscribe
 <form action="//uscnaitheater.us14.list-manage.com/subscribe/post?u=96b231eca77aa089f058f1dce&amp;id=9cb655ed09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Subscribe to our mailing list</h2>
+	<p><a href="http://us14.campaign-archive1.com/home/?u=96b231eca77aa089f058f1dce&id=9cb655ed09" target="_blank">Click here to see our past newsletters!</a></p>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>

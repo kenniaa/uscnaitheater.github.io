@@ -2439,13 +2439,12 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #000000;
-		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");*/
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
 		cursor: default;
-		padding: 6em 0;
+		padding: 6em 0em 3em 0em;
 		text-align: center;
 	}
 
@@ -2503,7 +2502,12 @@
 				margin: 2em 0 0 0;
 			}
 
-/* slide */
+/* slide 
+I changed the imageAnimation from 36s to 200s
+and all the the 1st and last 2 zero's in the imageAnimation
+webkit frames to one's.
+so that the middlemarch poster would look nice 
+*/
 	.cb-slideshow {
 
 	}
@@ -2515,7 +2519,7 @@
 	    top: 0px;
 	    left: 0px;
 	    z-index: 0;
-	    background: rgba(0, 0, 0, 0.68);
+	    background: rgba(0, 0, 0, 0.40);
 		display:block;
 	}
 	.cb-slideshow:after { 
@@ -2539,14 +2543,17 @@
 	    background-repeat: none;
 	    opacity: 0;
 	    z-index: 0;
-		-webkit-backface-visibility: hidden;
-	    -webkit-animation: imageAnimation 36s linear infinite 0s;
-	    -moz-animation: imageAnimation 36s linear infinite 0s;
-	    -o-animation: imageAnimation 36s linear infinite 0s;
-	    -ms-animation: imageAnimation 36s linear infinite 0s;
-	    animation: imageAnimation 36s linear infinite 0s; 
-	}
-
+	    
+	    -webkit-backface-visibility: hidden;
+	    -webkit-animation: imageAnimation 200s linear infinite 0s;
+	    -moz-animation: imageAnimation 200s linear infinite 0s;
+	    -o-animation: imageAnimation 200s linear infinite 0s;
+	    -ms-animation: imageAnimation 200s linear infinite 0s;
+	    animation: imageAnimation 200s linear infinite 0s; 
+		
+        }
+         
+        
 	.cb-slideshow li div { 
 	     z-index: 1000;
 	    position: absolute;
@@ -2562,6 +2569,7 @@
 	    -ms-animation: titleAnimation 36s linear infinite 0s;
 	    animation: titleAnimation 36s linear infinite 0s; 
 	}
+
 	.cb-slideshow li div h3 { 
 	    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 	    font-size: 240px;
@@ -2569,8 +2577,9 @@
 	    line-height: 200px; 
 	}
 	.cb-slideshow li:nth-child(1) span { 
-	    background-image: url(../../images/bottom.jpg)
+	    background-image: url(../../images/midbanner.jpg)
 	}
+
 	.cb-slideshow li:nth-child(2) span { 
 	    background-image: url(../../images/dombey.jpg);
 	    -webkit-animation-delay: 6s;
@@ -2648,49 +2657,49 @@
 	}
 	/* Animation for the slideshow images */
 	@-webkit-keyframes imageAnimation { 
-	    0% { opacity: 0;
+	    0% { opacity: 1;
 	    -webkit-animation-timing-function: ease-in; }
 	    8% { opacity: 1;
 	         -webkit-animation-timing-function: ease-out; }
 	    17% { opacity: 1 }
-	    25% { opacity: 0 }
-	    100% { opacity: 0 }
+	    25% { opacity: 1 }
+	    100% { opacity: 1 }
 	}
 	@-moz-keyframes imageAnimation { 
-	    0% { opacity: 0;
+	    0% { opacity: 1;
 	    -moz-animation-timing-function: ease-in; }
 	    8% { opacity: 1;
 	         -moz-animation-timing-function: ease-out; }
 	    17% { opacity: 1 }
-	    25% { opacity: 0 }
-	    100% { opacity: 0 }
+	    25% { opacity: 1 }
+	    100% { opacity: 1 }
 	}
 	@-o-keyframes imageAnimation { 
-	    0% { opacity: 0;
+	    0% { opacity: 1;
 	    -o-animation-timing-function: ease-in; }
 	    8% { opacity: 1;
 	         -o-animation-timing-function: ease-out; }
 	    17% { opacity: 1 }
-	    25% { opacity: 0 }
-	    100% { opacity: 0 }
+	    25% { opacity: 1 }
+	    100% { opacity: 1 }
 	}
 	@-ms-keyframes imageAnimation { 
-	    0% { opacity: 0;
+	    0% { opacity: 1;
 	    -ms-animation-timing-function: ease-in; }
 	    8% { opacity: 1;
 	         -ms-animation-timing-function: ease-out; }
 	    17% { opacity: 1 }
-	    25% { opacity: 0 }
-	    100% { opacity: 0 }
+	    25% { opacity: 1 }
+	    100% { opacity: 1}
 	}
 	@keyframes imageAnimation { 
-	    0% { opacity: 0;
+	    0% { opacity: 1;
 	    animation-timing-function: ease-in; }
 	    8% { opacity: 1;
 	         animation-timing-function: ease-out; }
 	    17% { opacity: 1 }
-	    25% { opacity: 0 }
-	    100% { opacity: 0 }
+	    25% { opacity: 1 }
+	    100% { opacity: 1 }
 	}
 	/* Animation for the title */
 	@-webkit-keyframes titleAnimation { 
